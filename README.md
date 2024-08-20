@@ -13,7 +13,8 @@ The Arduino code interfaces with the TMD4903 light sensor to gather measurements
 ## Python Analysis: Flame or LED?
 
 
-<img src="https://github.com/dj-rojo/Flame-Detector-Arduino-C-Python/blob/main/Red%20Blue%20Ratio.png" alt="Description of the image" align="left" width="200" />
+<img src="https://github.com/dj-rojo/Flame-Detector-Arduino-C-Python/blob/main/Red%20Blue%20Ratio.png" alt="Description of the image" align="left" width="300" />
 In this phase of the project, the data collected from the sensors are accessed directly via the USB port and imported into a Python script. The data are then displayed as a heat map, showcasing the comparison between red and clear light almost in real time. By calculating the ratio of infrared to clear light, it is possible to differentiate between a flame and LED light source. In the experiments performed for this project, even the comparison of just the red and blue spectrum of visible light sufficed to identify a test light source correctly. 
+
 The image shows the ratio of red to blue light with a candle located at the right-hand side of the image and a LED light source at the left-hand side.
 
